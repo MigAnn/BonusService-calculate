@@ -7,6 +7,6 @@ public class Main {
         boolean registered = true;
 
         long bonus = service.calculate(amount, registered);
-        System.out.println("Ваше количество бонусов: " + bonus);
+        System.out.println("Ваши бонусы " + bonus);
     }
 }
